@@ -131,32 +131,10 @@ img {
 
 /* media screen tablet */
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
 
-    .site-header {
-        width: 1140px;
-    }
-
-    .row {
-        justify-content: center;
-        gap: 20px;
-        margin: 0px 30px;
-    }
-
-    .lessons .col img {
-        height: 260px;
-    }
-
-    p {
-        font-size: x-large;
-    }
-
-    h3 {
-        font-size: xx-large;
-    }
-
-    .steps {
-        width: 1140px;
+    .container {
+        width: 100%;
     }
 
 }
@@ -164,7 +142,7 @@ img {
 /* media screen mobile */
 
 @media screen and (max-width: 480px) {
-p {
+    /* p {
     font-size:50px;
   }
-}
+} */
